@@ -6,8 +6,8 @@
 #define MQ2_ADC_CH          ADC_CHANNEL_1    /* PA1 */
 #define PH_ADC_CH           ADC_CHANNEL_4    /* PA4 */
 
-#define DHT_GPIO_Port       GPIOA
-#define DHT_Pin             GPIO_PIN_5       /* PA5 (DATA) */
+#define DHT_DATA_GPIO_Port  GPIOA
+#define DHT_DATA_Pin        GPIO_PIN_5
 
 /* ===== LOOP ===== */
 #define MAIN_LOOP_MS        1000
