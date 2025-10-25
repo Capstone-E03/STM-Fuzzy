@@ -5,10 +5,10 @@ void App_Run(void);
 
 int main(void) {
   HAL_Init();
-//  SystemClock_Config();
-//  MX_GPIO_Init();
-//  MX_ADC1_Init();
-//  MX_USART1_UART_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  MX_ADC1_Init();
+  MX_USART1_UART_Init();
 
   /* USER CODE BEGIN 2 */
   App_Run();  // loop di dalam
